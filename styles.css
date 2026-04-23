@@ -158,6 +158,22 @@ body {
   transform: translateY(-1px);
 }
 
+.cta-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--grad-start), var(--grad-end));
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 36px;
+  border-radius: 8px;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.cta-btn:hover {
+  opacity: 0.88;
+  transform: translateY(-2px);
+}
+
 .note {
   font-size: 13px;
   color: rgba(255,255,255,0.2);
