@@ -82,6 +82,13 @@ body::after {
 .logo {
   height: 396px;
   width: auto;
+  animation: logoGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes logoGlow {
+  0%   { filter: drop-shadow(0 0 8px  rgba(245,166,35,0.2)) drop-shadow(0 0 20px rgba(232,66,10,0.1)); }
+  50%  { filter: drop-shadow(0 0 20px rgba(245,166,35,0.5)) drop-shadow(0 0 48px rgba(76,110,245,0.25)); }
+  100% { filter: drop-shadow(0 0 12px rgba(62,207,142,0.3)) drop-shadow(0 0 32px rgba(245,166,35,0.2)); }
 }
 
 .tagline {
