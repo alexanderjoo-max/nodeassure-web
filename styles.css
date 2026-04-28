@@ -95,7 +95,7 @@ body {
 }
 
 .logo {
-  height: 396px;
+  height: 500px;
   width: auto;
   animation: logoGlow 3s ease-in-out infinite alternate;
 }
