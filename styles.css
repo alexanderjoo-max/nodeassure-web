@@ -172,6 +172,7 @@ body {
   font-weight: 600;
   padding: 15px 36px;
   border-radius: 8px;
+  text-decoration: none;
   transition: opacity 0.2s, transform 0.2s;
 }
 
