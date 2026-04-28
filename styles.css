@@ -190,5 +190,5 @@ body {
 @media (max-width: 500px) {
   .form { flex-direction: column; }
   .form button { width: 100%; }
-  .logo { height: 80px; }
+  .logo { height: 260px; }
 }
